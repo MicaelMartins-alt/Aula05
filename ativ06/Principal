@@ -1,0 +1,11 @@
+import {Calculando} from "./Calculando";
+
+    const calculo = new Calculando;
+
+    console.log("Soma: " + calculo.somar());
+    console.log("subtração: " + calculo.sub());
+    console.log("Multiplicação: " + calculo.mult());
+    console.log("Divisão: " + calculo.div());
+    console.log("Exponenciação: " + calculo.exp());
+
+
